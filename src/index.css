@@ -1,0 +1,19 @@
+body {
+	margin-top: 150px;
+	font-family: serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e0cddd;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+	background-color: white !important;
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-text-fill-color: #000 !important;
+}

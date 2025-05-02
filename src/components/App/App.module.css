@@ -1,0 +1,57 @@
+.mainBlock {
+	background-color: rgb(198, 146, 154);
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 300px;
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+
+.formBlock {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 100%;
+}
+
+form input,
+form button {
+	border: none;
+	outline: none;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+form input {
+	border-radius: 5px;
+	padding: 0.5rem;
+	border: 1px solid beige;
+}
+
+form button {
+	height: 40px;
+	align-self: center;
+	border-radius: 10px;
+	font-size: 17px;
+	transition: background 0.3s;
+	border: 1px solid beige;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+form button:focus,
+form button:hover {
+	border: 2px solid black;
+	outline: none;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 21px;
+}
